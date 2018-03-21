@@ -1,0 +1,7 @@
+default: --no-source --color --format pretty
+
+cadastrar: -t @cadastrar -f html -o html_report.html
+
+editar: -t @editarcadastro -f html -o html_report.html
+
+deletar: -t @deletarcadastro -f html -o html_report.html
